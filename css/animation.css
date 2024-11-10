@@ -1,0 +1,26 @@
+
+@keyframes slight_wave {
+    0%, 100%{
+        border-radius: 0 0 10% 0 / 0 0 550px 0;
+    }
+    50%{
+        border-radius: 0 0 500px 0 / 0 0 500px 0;
+    }
+}
+
+@keyframes slight_wave2 {
+    0%, 100%{
+        border-radius: 0 0 50% 0/0 0 900px 0;
+    }
+    50%{
+        border-radius: 0 0 800px 0/0 0 900px 0;
+    }
+}
+
+@keyframes blink {
+    0%, 100%{
+        opacity: 1;
+    }10%{
+        opacity: 0.1;
+    }
+}

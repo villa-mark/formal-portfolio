@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Sans';
+    src: url('../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+@font-face {    
+    font-family: 'Doto';
+    src: url('../font/Doto/Doto-VariableFont_ROND\,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Edu';
+    src: url('../font/Edu/Edu_AU_VIC_WA_NT_Pre/static/EduAUVICWANTPre-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sour';
+    src: url('../font/Sour_Gummy/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+
+
+
+:root {
+    --sans: 'Sans', sans-serif;
+    --doto: 'Doto', sans-serif;
+    --edu: 'Edu', sans-serif;
+    --sour: 'Sour', sans-serif;
+
+
+    /*Light Mode*/
+    --background-color: #FFFFFF;
+    --font-color: #333333;
+    --highlight: #4682B4;
+    --button-color: #708090;
+    --shadow-color: #00000040;
+
+    /*Dark Mode*/
+    --background-color-d: #121212;     
+    --font-color-d: #E0E0E0;           
+    --highlight-d: #87CEEB;            
+    --button-color-d: #A9A9A9;         
+    --shadow-color-d: #ffffff33;
+    background-color: #2e2e2e;
+
+}

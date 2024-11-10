@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#front_container,
+#main_container,
+#back_container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#front_container {
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50vw);
+    z-index: 100;
+    border-bottom-right-radius: 1000%; 
+}
+
+
+
+#main_container{
+    background-color: green;   
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom-right-radius: 1000%; 
+}
+
+#back_container{
+    background-color: yellow;
+    z-index: 98;
+    
+}
